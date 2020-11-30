@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="uk">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+}
+li span {
+  display: inline-block;
+  width: 120px;
+}
+li {
+  border: 2px solid transparent;
+  padding: 5px 10px;
+  margin-bottom: -5px;
+}
+li.sunday {
+  margin-bottom: 10px;
+}
+li.sunday span {
+  color: red;
+}
+li.today {
+  border-color: red;
+}
+</style>
+
+<ul>
+<li data-iso-date="2020-11-01" class="sunday">
+    <span>01.11 Неділя</span> Луки (<a href="https://www.biblegateway.com/passage/?search=Luke%201-2&version=UKR,ESV">1-2</a>) у контексті
+  </li>
+<li data-iso-date="2020-11-02" class="">
+    <span>02.11 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%201:1-4&version=UKR,ESV">1:1-4</a>)
+  </li>
+<li data-iso-date="2020-11-03" class="">
+    <span>03.11 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%201:5-25&version=UKR,ESV">1:5-25</a>)
+  </li>
+<li data-iso-date="2020-11-04" class="">
+    <span>04.11 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%201:26-38&version=UKR,ESV">1:26-38</a>)
+  </li>
+<li data-iso-date="2020-11-05" class="">
+    <span>05.11 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%201:39-45&version=UKR,ESV">1:39-45</a>)
+  </li>
+<li data-iso-date="2020-11-06" class="">
+    <span>06.11 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%201:46-56&version=UKR,ESV">1:46-56</a>)
+  </li>
+<li data-iso-date="2020-11-07" class="">
+    <span>07.11 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2020-11-08" class="sunday">
+    <span>08.11 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%201:57-66&version=UKR,ESV">1:57-66</a>)
+  </li>
+<li data-iso-date="2020-11-09" class="">
+    <span>09.11 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%201:67-80&version=UKR,ESV">1:67-80</a>)
+  </li>
+<li data-iso-date="2020-11-10" class="">
+    <span>10.11 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%202:1-7&version=UKR,ESV">2:1-7</a>)
+  </li>
+<li data-iso-date="2020-11-11" class="">
+    <span>11.11 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%202:8-20&version=UKR,ESV">2:8-20</a>)
+  </li>
+<li data-iso-date="2020-11-12" class="">
+    <span>12.11 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%202:21-40&version=UKR,ESV">2:21-40</a>)
+  </li>
+<li data-iso-date="2020-11-13" class="">
+    <span>13.11 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%202:41-52&version=UKR,ESV">2:41-52</a>)
+  </li>
+<li data-iso-date="2020-11-14" class="">
+    <span>14.11 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2020-11-15" class="sunday">
+    <span>15.11 Неділя</span> Луки (<a href="https://www.biblegateway.com/passage/?search=Luke%203:1-4:13&version=UKR,ESV">3:1-4:13</a>) у контексті
+  </li>
+<li data-iso-date="2020-11-16" class="">
+    <span>16.11 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%203:1-20&version=UKR,ESV">3:1-20</a>)
+  </li>
+<li data-iso-date="2020-11-17" class="">
+    <span>17.11 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%203:21-22&version=UKR,ESV">3:21-22</a>)
+  </li>
+<li data-iso-date="2020-11-18" class="">
+    <span>18.11 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%203:23-38&version=UKR,ESV">3:23-38</a>)
+  </li>
+<li data-iso-date="2020-11-19" class="">
+    <span>19.11 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%204:1-13&version=UKR,ESV">4:1-13</a>)
+  </li>
+<li data-iso-date="2020-11-20" class="">
+    <span>20.11 П’ятниця</span> Луки (<a href="https://www.biblegateway.com/passage/?search=Luke%204:14-6:16&version=UKR,ESV">4:14-6:16</a>) у контексті
+  </li>
+<li data-iso-date="2020-11-21" class="">
+    <span>21.11 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2020-11-22" class="sunday">
+    <span>22.11 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%204:14-30&version=UKR,ESV">4:14-30</a>)
+  </li>
+<li data-iso-date="2020-11-23" class="">
+    <span>23.11 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%204:31-37&version=UKR,ESV">4:31-37</a>)
+  </li>
+<li data-iso-date="2020-11-24" class="">
+    <span>24.11 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%204:38-44&version=UKR,ESV">4:38-44</a>)
+  </li>
+<li data-iso-date="2020-11-25" class="">
+    <span>25.11 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%205:1-11&version=UKR,ESV">5:1-11</a>)
+  </li>
+<li data-iso-date="2020-11-26" class="">
+    <span>26.11 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%205:12-16&version=UKR,ESV">5:12-16</a>)
+  </li>
+<li data-iso-date="2020-11-27" class="">
+    <span>27.11 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%205:17-26&version=UKR,ESV">5:17-26</a>)
+  </li>
+<li data-iso-date="2020-11-28" class="">
+    <span>28.11 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2020-11-29" class="sunday">
+    <span>29.11 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%205:27-32&version=UKR,ESV">5:27-32</a>)
+  </li>
+<li data-iso-date="2020-11-30" class="">
+    <span>30.11 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%205:33-39&version=UKR,ESV">5:33-39</a>)
+  </li>
+<li data-iso-date="2020-12-01" class="">
+    <span>01.12 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%206:1-11&version=UKR,ESV">6:1-11</a>)
+  </li>
+<li data-iso-date="2020-12-02" class="">
+    <span>02.12 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%206:12-16&version=UKR,ESV">6:12-16</a>)
+  </li>
+<li data-iso-date="2020-12-03" class="">
+    <span>03.12 Четвер</span> Луки (<a href="https://www.biblegateway.com/passage/?search=Luke%206:17-49&version=UKR,ESV">6:17-49</a>) у контексті
+  </li>
+<li data-iso-date="2020-12-04" class="">
+    <span>04.12 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%206:17-26&version=UKR,ESV">6:17-26</a>)
+  </li>
+<li data-iso-date="2020-12-05" class="">
+    <span>05.12 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2020-12-06" class="sunday">
+    <span>06.12 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%206:27-36&version=UKR,ESV">6:27-36</a>)
+  </li>
+<li data-iso-date="2020-12-07" class="">
+    <span>07.12 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%206:37-42&version=UKR,ESV">6:37-42</a>)
+  </li>
+<li data-iso-date="2020-12-08" class="">
+    <span>08.12 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%206:43-45&version=UKR,ESV">6:43-45</a>)
+  </li>
+<li data-iso-date="2020-12-09" class="">
+    <span>09.12 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%206:46-49&version=UKR,ESV">6:46-49</a>)
+  </li>
+<li data-iso-date="2020-12-10" class="">
+    <span>10.12 Четвер</span> Луки (<a href="https://www.biblegateway.com/passage/?search=Luke%207:1-9:50&version=UKR,ESV">7:1-9:50</a>) у контексті
+  </li>
+<li data-iso-date="2020-12-11" class="">
+    <span>11.12 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%207:1-10&version=UKR,ESV">7:1-10</a>)
+  </li>
+<li data-iso-date="2020-12-12" class="">
+    <span>12.12 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2020-12-13" class="sunday">
+    <span>13.12 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%207:11-17&version=UKR,ESV">7:11-17</a>)
+  </li>
+<li data-iso-date="2020-12-14" class="">
+    <span>14.12 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%207:18-35&version=UKR,ESV">7:18-35</a>)
+  </li>
+<li data-iso-date="2020-12-15" class="">
+    <span>15.12 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%207:36-50&version=UKR,ESV">7:36-50</a>)
+  </li>
+<li data-iso-date="2020-12-16" class="">
+    <span>16.12 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%208:1-15&version=UKR,ESV">8:1-15</a>)
+  </li>
+<li data-iso-date="2020-12-17" class="">
+    <span>17.12 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%208:16-18&version=UKR,ESV">8:16-18</a>)
+  </li>
+<li data-iso-date="2020-12-18" class="">
+    <span>18.12 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%208:19-21&version=UKR,ESV">8:19-21</a>)
+  </li>
+<li data-iso-date="2020-12-19" class="">
+    <span>19.12 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2020-12-20" class="sunday">
+    <span>20.12 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%208:22-25&version=UKR,ESV">8:22-25</a>)
+  </li>
+<li data-iso-date="2020-12-21" class="">
+    <span>21.12 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%208:26-39&version=UKR,ESV">8:26-39</a>)
+  </li>
+<li data-iso-date="2020-12-22" class="">
+    <span>22.12 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%208:40-56&version=UKR,ESV">8:40-56</a>)
+  </li>
+<li data-iso-date="2020-12-23" class="">
+    <span>23.12 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%209:1-6&version=UKR,ESV">9:1-6</a>)
+  </li>
+<li data-iso-date="2020-12-24" class="">
+    <span>24.12 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%209:7-9&version=UKR,ESV">9:7-9</a>)
+  </li>
+<li data-iso-date="2020-12-25" class="">
+    <span>25.12 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%209:10-17&version=UKR,ESV">9:10-17</a>)
+  </li>
+<li data-iso-date="2020-12-26" class="">
+    <span>26.12 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2020-12-27" class="sunday">
+    <span>27.12 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%209:18-21&version=UKR,ESV">9:18-21</a>)
+  </li>
+<li data-iso-date="2020-12-28" class="">
+    <span>28.12 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%209:22-27&version=UKR,ESV">9:22-27</a>)
+  </li>
+<li data-iso-date="2020-12-29" class="">
+    <span>29.12 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%209:28-36&version=UKR,ESV">9:28-36</a>)
+  </li>
+<li data-iso-date="2020-12-30" class="">
+    <span>30.12 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%209:37-45&version=UKR,ESV">9:37-45</a>)
+  </li>
+<li data-iso-date="2020-12-31" class="">
+    <span>31.12 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%209:46-50&version=UKR,ESV">9:46-50</a>)
+  </li>
+<li data-iso-date="2021-01-01" class="">
+    <span>01.01 П’ятниця</span> Луки (<a href="https://www.biblegateway.com/passage/?search=Luke%209:51-11:54&version=UKR,ESV">9:51-11:54</a>) у контексті
+  </li>
+<li data-iso-date="2021-01-02" class="">
+    <span>02.01 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-01-03" class="sunday">
+    <span>03.01 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%209:51-56&version=UKR,ESV">9:51-56</a>)
+  </li>
+<li data-iso-date="2021-01-04" class="">
+    <span>04.01 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%209:57-62&version=UKR,ESV">9:57-62</a>)
+  </li>
+<li data-iso-date="2021-01-05" class="">
+    <span>05.01 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2010:1-24&version=UKR,ESV">10:1-24</a>)
+  </li>
+<li data-iso-date="2021-01-06" class="">
+    <span>06.01 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2010:25-37&version=UKR,ESV">10:25-37</a>)
+  </li>
+<li data-iso-date="2021-01-07" class="">
+    <span>07.01 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2010:38-42&version=UKR,ESV">10:38-42</a>)
+  </li>
+<li data-iso-date="2021-01-08" class="">
+    <span>08.01 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2011:1-13&version=UKR,ESV">11:1-13</a>)
+  </li>
+<li data-iso-date="2021-01-09" class="">
+    <span>09.01 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-01-10" class="sunday">
+    <span>10.01 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2011:14-28&version=UKR,ESV">11:14-28</a>)
+  </li>
+<li data-iso-date="2021-01-11" class="">
+    <span>11.01 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2011:29-32&version=UKR,ESV">11:29-32</a>)
+  </li>
+<li data-iso-date="2021-01-12" class="">
+    <span>12.01 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2011:33-36&version=UKR,ESV">11:33-36</a>)
+  </li>
+<li data-iso-date="2021-01-13" class="">
+    <span>13.01 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2011:37-54&version=UKR,ESV">11:37-54</a>)
+  </li>
+<li data-iso-date="2021-01-14" class="">
+    <span>14.01 Четвер</span> Луки (<a href="https://www.biblegateway.com/passage/?search=Luke%2012:1-13:35&version=UKR,ESV">12:1-13:35</a>) у контексті
+  </li>
+<li data-iso-date="2021-01-15" class="">
+    <span>15.01 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2012:1-12&version=UKR,ESV">12:1-12</a>)
+  </li>
+<li data-iso-date="2021-01-16" class="">
+    <span>16.01 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-01-17" class="sunday">
+    <span>17.01 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2012:13-21&version=UKR,ESV">12:13-21</a>)
+  </li>
+<li data-iso-date="2021-01-18" class="">
+    <span>18.01 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2012:22-34&version=UKR,ESV">12:22-34</a>)
+  </li>
+<li data-iso-date="2021-01-19" class="">
+    <span>19.01 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2012:35-48&version=UKR,ESV">12:35-48</a>)
+  </li>
+<li data-iso-date="2021-01-20" class="">
+    <span>20.01 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2012:49-53&version=UKR,ESV">12:49-53</a>)
+  </li>
+<li data-iso-date="2021-01-21" class="">
+    <span>21.01 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2012:54-59&version=UKR,ESV">12:54-59</a>)
+  </li>
+<li data-iso-date="2021-01-22" class="">
+    <span>22.01 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2013:1-9&version=UKR,ESV">13:1-9</a>)
+  </li>
+<li data-iso-date="2021-01-23" class="">
+    <span>23.01 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-01-24" class="sunday">
+    <span>24.01 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2013:10-17&version=UKR,ESV">13:10-17</a>)
+  </li>
+<li data-iso-date="2021-01-25" class="">
+    <span>25.01 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2013:18-21&version=UKR,ESV">13:18-21</a>)
+  </li>
+<li data-iso-date="2021-01-26" class="">
+    <span>26.01 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2013:22-30&version=UKR,ESV">13:22-30</a>)
+  </li>
+<li data-iso-date="2021-01-27" class="">
+    <span>27.01 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2013:31-35&version=UKR,ESV">13:31-35</a>)
+  </li>
+<li data-iso-date="2021-01-28" class="">
+    <span>28.01 Четвер</span> Луки (<a href="https://www.biblegateway.com/passage/?search=Luke%2014:1-18:30&version=UKR,ESV">14:1-18:30</a>) у контексті
+  </li>
+<li data-iso-date="2021-01-29" class="">
+    <span>29.01 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2014:1-14&version=UKR,ESV">14:1-14</a>)
+  </li>
+<li data-iso-date="2021-01-30" class="">
+    <span>30.01 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-01-31" class="sunday">
+    <span>31.01 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2014:15-24&version=UKR,ESV">14:15-24</a>)
+  </li>
+<li data-iso-date="2021-02-01" class="">
+    <span>01.02 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2014:25-35&version=UKR,ESV">14:25-35</a>)
+  </li>
+<li data-iso-date="2021-02-02" class="">
+    <span>02.02 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2015:1-7&version=UKR,ESV">15:1-7</a>)
+  </li>
+<li data-iso-date="2021-02-03" class="">
+    <span>03.02 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2015:8-10&version=UKR,ESV">15:8-10</a>)
+  </li>
+<li data-iso-date="2021-02-04" class="">
+    <span>04.02 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2015:11-32&version=UKR,ESV">15:11-32</a>)
+  </li>
+<li data-iso-date="2021-02-05" class="">
+    <span>05.02 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2016:1-18&version=UKR,ESV">16:1-18</a>)
+  </li>
+<li data-iso-date="2021-02-06" class="">
+    <span>06.02 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-02-07" class="sunday">
+    <span>07.02 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2016:19-31&version=UKR,ESV">16:19-31</a>)
+  </li>
+<li data-iso-date="2021-02-08" class="">
+    <span>08.02 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2017:1-10&version=UKR,ESV">17:1-10</a>)
+  </li>
+<li data-iso-date="2021-02-09" class="">
+    <span>09.02 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2017:11-19&version=UKR,ESV">17:11-19</a>)
+  </li>
+<li data-iso-date="2021-02-10" class="">
+    <span>10.02 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2017:20-37&version=UKR,ESV">17:20-37</a>)
+  </li>
+<li data-iso-date="2021-02-11" class="">
+    <span>11.02 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2018:1-8&version=UKR,ESV">18:1-8</a>)
+  </li>
+<li data-iso-date="2021-02-12" class="">
+    <span>12.02 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2018:9-14&version=UKR,ESV">18:9-14</a>)
+  </li>
+<li data-iso-date="2021-02-13" class="">
+    <span>13.02 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-02-14" class="sunday">
+    <span>14.02 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2018:15-17&version=UKR,ESV">18:15-17</a>)
+  </li>
+<li data-iso-date="2021-02-15" class="">
+    <span>15.02 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2018:18-30&version=UKR,ESV">18:18-30</a>)
+  </li>
+<li data-iso-date="2021-02-16" class="">
+    <span>16.02 Вівторок</span> Луки (<a href="https://www.biblegateway.com/passage/?search=Luke%2018:31-19:44&version=UKR,ESV">18:31-19:44</a>) у контексті
+  </li>
+<li data-iso-date="2021-02-17" class="">
+    <span>17.02 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2018:31-34&version=UKR,ESV">18:31-34</a>)
+  </li>
+<li data-iso-date="2021-02-18" class="">
+    <span>18.02 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2018:35-43&version=UKR,ESV">18:35-43</a>)
+  </li>
+<li data-iso-date="2021-02-19" class="">
+    <span>19.02 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2019:1-10&version=UKR,ESV">19:1-10</a>)
+  </li>
+<li data-iso-date="2021-02-20" class="">
+    <span>20.02 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-02-21" class="sunday">
+    <span>21.02 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2019:11-27&version=UKR,ESV">19:11-27</a>)
+  </li>
+<li data-iso-date="2021-02-22" class="">
+    <span>22.02 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2019:28-44&version=UKR,ESV">19:28-44</a>)
+  </li>
+<li data-iso-date="2021-02-23" class="">
+    <span>23.02 Вівторок</span> Луки (<a href="https://www.biblegateway.com/passage/?search=Luke%2019:45-21:38&version=UKR,ESV">19:45-21:38</a>) у контексті
+  </li>
+<li data-iso-date="2021-02-24" class="">
+    <span>24.02 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2019:45-48&version=UKR,ESV">19:45-48</a>)
+  </li>
+<li data-iso-date="2021-02-25" class="">
+    <span>25.02 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2020:1-8&version=UKR,ESV">20:1-8</a>)
+  </li>
+<li data-iso-date="2021-02-26" class="">
+    <span>26.02 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2020:9-19&version=UKR,ESV">20:9-19</a>)
+  </li>
+<li data-iso-date="2021-02-27" class="">
+    <span>27.02 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-02-28" class="sunday">
+    <span>28.02 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2020:20-26&version=UKR,ESV">20:20-26</a>)
+  </li>
+<li data-iso-date="2021-03-01" class="">
+    <span>01.03 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2020:27-40&version=UKR,ESV">20:27-40</a>)
+  </li>
+<li data-iso-date="2021-03-02" class="">
+    <span>02.03 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2020:41-47&version=UKR,ESV">20:41-47</a>)
+  </li>
+<li data-iso-date="2021-03-03" class="">
+    <span>03.03 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2021:1-4&version=UKR,ESV">21:1-4</a>)
+  </li>
+<li data-iso-date="2021-03-04" class="">
+    <span>04.03 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2021:5-19&version=UKR,ESV">21:5-19</a>)
+  </li>
+<li data-iso-date="2021-03-05" class="">
+    <span>05.03 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2021:20-24&version=UKR,ESV">21:20-24</a>)
+  </li>
+<li data-iso-date="2021-03-06" class="">
+    <span>06.03 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-03-07" class="sunday">
+    <span>07.03 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2021:25-28&version=UKR,ESV">21:25-28</a>)
+  </li>
+<li data-iso-date="2021-03-08" class="">
+    <span>08.03 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2021:29-33&version=UKR,ESV">21:29-33</a>)
+  </li>
+<li data-iso-date="2021-03-09" class="">
+    <span>09.03 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2021:34-38&version=UKR,ESV">21:34-38</a>)
+  </li>
+<li data-iso-date="2021-03-10" class="">
+    <span>10.03 Середа</span> Луки (<a href="https://www.biblegateway.com/passage/?search=Luke%2022:1-23:56&version=UKR,ESV">22:1-23:56</a>) у контексті
+  </li>
+<li data-iso-date="2021-03-11" class="">
+    <span>11.03 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2022:1-6&version=UKR,ESV">22:1-6</a>)
+  </li>
+<li data-iso-date="2021-03-12" class="">
+    <span>12.03 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2022:7-38&version=UKR,ESV">22:7-38</a>)
+  </li>
+<li data-iso-date="2021-03-13" class="">
+    <span>13.03 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-03-14" class="sunday">
+    <span>14.03 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2022:39-46&version=UKR,ESV">22:39-46</a>)
+  </li>
+<li data-iso-date="2021-03-15" class="">
+    <span>15.03 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2022:47-53&version=UKR,ESV">22:47-53</a>)
+  </li>
+<li data-iso-date="2021-03-16" class="">
+    <span>16.03 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2022:54-62&version=UKR,ESV">22:54-62</a>)
+  </li>
+<li data-iso-date="2021-03-17" class="">
+    <span>17.03 Середа</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2022:63-65&version=UKR,ESV">22:63-65</a>)
+  </li>
+<li data-iso-date="2021-03-18" class="">
+    <span>18.03 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2022:66-71&version=UKR,ESV">22:66-71</a>)
+  </li>
+<li data-iso-date="2021-03-19" class="">
+    <span>19.03 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2023:1-25&version=UKR,ESV">23:1-25</a>)
+  </li>
+<li data-iso-date="2021-03-20" class="">
+    <span>20.03 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-03-21" class="sunday">
+    <span>21.03 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2023:26-43&version=UKR,ESV">23:26-43</a>)
+  </li>
+<li data-iso-date="2021-03-22" class="">
+    <span>22.03 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2023:44-49&version=UKR,ESV">23:44-49</a>)
+  </li>
+<li data-iso-date="2021-03-23" class="">
+    <span>23.03 Вівторок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2023:50-56&version=UKR,ESV">23:50-56</a>)
+  </li>
+<li data-iso-date="2021-03-24" class="">
+    <span>24.03 Середа</span> Луки (<a href="https://www.biblegateway.com/passage/?search=Luke%2024:1-53&version=UKR,ESV">24:1-53</a>) у контексті
+  </li>
+<li data-iso-date="2021-03-25" class="">
+    <span>25.03 Четвер</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2024:1-12&version=UKR,ESV">24:1-12</a>)
+  </li>
+<li data-iso-date="2021-03-26" class="">
+    <span>26.03 П’ятниця</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2024:13-35&version=UKR,ESV">24:13-35</a>)
+  </li>
+<li data-iso-date="2021-03-27" class="">
+    <span>27.03 Субота</span> Субота – день спочинку
+  </li>
+<li data-iso-date="2021-03-28" class="sunday">
+    <span>28.03 Неділя</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2024:36-49&version=UKR,ESV">24:36-49</a>)
+  </li>
+<li data-iso-date="2021-03-29" class="">
+    <span>29.03 Понеділок</span> (<a href="https://www.biblegateway.com/passage/?search=Luke%2024:50-53&version=UKR,ESV">24:50-53</a>)
+  </li>
+</ul>
+
+<script>
+  const getISODate = date => date.toISOString().match(/(\d{4})-(\d{2})-(\d{2})/);
+  const [now] = getISODate(new Date);
+  const selector = `[data-iso-date="${now}"]`;
+  const el = document.querySelector(selector);
+  if (el) el.classList.add('today');
+</script>
+
